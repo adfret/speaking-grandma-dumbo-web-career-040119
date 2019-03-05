@@ -6,7 +6,7 @@ def speak_to_grandma
              else
             response = "HUH?! SPEAK UP, SONNY!"
             end
-             response
+            #  response
       end
 # Write a speak_to_grandma method.
 
