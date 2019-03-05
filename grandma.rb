@@ -1,9 +1,15 @@
 def speak_to_grandma
-
-
-
-
-end
+      puts "Say something to grandma"
+      answer = gets.chomp
+            if answer == answer.upcase
+            response = "NO, NOT SINCE 1938!"
+             elsif answer == "I LOVE YOU GRANDMA!"
+            response = "I LOVE YOU TOO PUMPKIN!"
+             else
+            response = "HUH?! SPEAK UP, SONNY!"
+            end
+             response
+      end
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
