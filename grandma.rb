@@ -1,6 +1,4 @@
 def speak_to_grandma
-      puts "Say something to grandma"
-      answer = gets.chomp
             if answer == answer.upcase
             response = "NO, NOT SINCE 1938!"
              elsif answer == "I LOVE YOU GRANDMA!"
